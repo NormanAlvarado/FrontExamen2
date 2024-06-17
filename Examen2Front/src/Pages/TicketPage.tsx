@@ -1,5 +1,5 @@
 import { useQuery } from 'react-query';
-import Navbar from '../Components/Navbar';
+
 import { getRoutes } from '../services/RoutesService';
 import { Select } from '@chakra-ui/react';
 import { Input } from '@chakra-ui/react';
@@ -74,7 +74,7 @@ function TicketPage() {
     return (
         <>
             <div>
-                <Navbar />
+                
                 <div className='ml-10 mt-5'>
                     <h1 className='font-bold text-4xl'>Ticket Page</h1>
                     <p className='text-lg text-gray-500 mt-1'>To buy a ticket complete the form</p>
